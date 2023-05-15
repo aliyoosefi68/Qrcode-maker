@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "YekanBakhBold", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00bcd4;
+}
+.container {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+}
+.container form {
+  margin: 15px 0 25px;
+}
+.container form :where(input, button) {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+.container form input {
+  border: 1px solid #999;
+}
+.container form button {
+  background-color: #00bcd4;
+  color: #fff;
+}
+.container .qrCode {
+  border: 1px solid #999;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+.hidden {
+  display: none;
+}
